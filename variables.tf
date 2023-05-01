@@ -4,7 +4,7 @@
 variable "aws_region" {
   description = "AWS region"
   type        = string
-  default     = "us-east-1"
+  default     = "us-east-2"
 }
 
 variable "project_tag" {
@@ -16,7 +16,7 @@ variable "project_tag" {
 variable "vpc_cidr_block" {
   description = "CIDR block for VPC"
   type        = string
-  default     = "10.0.0.0/16"
+  default     = "10.10.0.0/16"
 }
 
 variable "public_subnet_count" {
@@ -35,21 +35,21 @@ variable "subnet_cidr_blocks" {
   description = "Available cidr blocks"
   type        = list(string)
   default = [
-    "10.0.1.0/24",
-    "10.0.2.0/24",
-    "10.0.3.0/24",
-    "10.0.4.0/24",
-    "10.0.5.0/24",
-    "10.0.6.0/24",
-    "10.0.7.0/24",
-    "10.0.8.0/24",
-    "10.0.9.0/24",
-    "10.0.10.0/24",
-    "10.0.11.0/24",
-    "10.0.12.0/24",
-    "10.0.13.0/24",
-    "10.0.14.0/24",
-    "10.0.15.0/24",
-    "10.0.16.0/24"
+    "10.10.1.0/24",
+    "10.10.2.0/24",
+    "10.10.3.0/24",
+    "10.10.4.0/24",
+    "10.10.5.0/24",
+    "10.10.6.0/24",
+    "10.10.7.0/24",
+    "10.10.8.0/24",
+    "10.10.9.0/24",
+    "10.10.10.0/24",
+    "10.10.11.0/24",
+    "10.10.12.0/24",
+    "10.10.13.0/24",
+    "10.10.14.0/24",
+    "10.10.15.0/24",
+    "10.10.16.0/24"
   ]
 }
